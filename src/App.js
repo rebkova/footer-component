@@ -4,7 +4,7 @@ import Footer from "./Footer"
 export const App = () => {
   return (
     <div>
-      <Footer />
+      <Footer name="Fictional Company Inc" />
     </div>
   )
 }

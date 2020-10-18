@@ -28,7 +28,7 @@ export const Footer = (props) => {
             </div>
             {/* Column3 */}
             <div className="column">
-              <h2>FICTIONAL COMPANY Inc</h2>
+              <h2>{props.name}</h2>
               <ul className="list">
                 <li>COMMUNITY</li>
                 <li>BLOG</li>
@@ -43,7 +43,7 @@ export const Footer = (props) => {
         <div className="bottom-line">
         </div>
         <section className="copyright-section">
-          <p>Copyright (C) 2020 Fictional Company Inc. All rights reserved.</p>
+          <p>Copyright (C) 2020 {props.name}. All rights reserved.</p>
           <p>Terms and Conditions</p>
           <p>Privacy Policy</p>
         </section>
