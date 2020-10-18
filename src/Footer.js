@@ -8,29 +8,28 @@ export const Footer = (props) => {
         <div className="container">
           <div className="row">
             {/* Column1 */}
-            <div className="col">
+            <div className="column">
               <h2>WORKOUT &#38; PROGRAMS</h2>
-              <ul className="list-unstyled">
+              <ul className="list">
                 <li>WORKOUT VIDEOS</li>
-                <li>CUSTOM WORKOUTS</li>
                 <li>WORKOUTS PROGRAMS</li>
                 <li>MEAL PLANS</li>
               </ul>
             </div>
             {/* Column2 */}
-            <div className="col">
+            <div className="column">
               <h2>HEALTHY LIVING</h2>
-              <ul className="list-unstyled">
+              <ul className="list">
                 <li>FITNESS</li>
                 <li>HEALTHY RECIPES</li>
                 <li>BEFORE &#38; AFTER</li>
-                <li>WEITGH LOSS</li>
+                <li>WEIGHT LOSS</li>
               </ul>
             </div>
             {/* Column3 */}
-            <div className="col">
+            <div className="column">
               <h2>FICTIONAL COMPANY Inc</h2>
-              <ul className="list-unstyled">
+              <ul className="list">
                 <li>COMMUNITY</li>
                 <li>BLOG</li>
                 <li>ABOUT</li>
@@ -40,6 +39,7 @@ export const Footer = (props) => {
             </div>
           </div>
         </div>
+        {/* <hr></hr> */}
         <div className="bottom-line">
         </div>
         <section className="copyright-section">
