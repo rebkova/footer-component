@@ -1,9 +1,12 @@
 import React from 'react'
+import Footer from "./Footer"
 
 export const App = () => {
   return (
     <div>
-      Find me in src/app.js!
+      Hej, Rebekas playground from App.js
+      <Footer />
     </div>
   )
 }
+
